@@ -18,7 +18,7 @@ try:
     NEWSAPI_KEY = os.environ.get("NEWSAPI_API_KEY") or st.secrets["NEWSAPI_API_KEY"]
 except (KeyError, AttributeError):
     # !!! IMPORTANT: Replace this placeholder with your actual key for local testing !!!
-    NEWSAPI_KEY = "31eb14eccd804920b1e87382a482eec9"
+    NEWSAPI_KEY = "YOUR_API_KEY"
 
 # 1.1 Model Caching: Load the heavy FinBERT model only ONCE
 @st.cache_resource(show_spinner="Loading FinBERT Model (This happens only once)...")
