@@ -1,0 +1,33 @@
+--- Python Specific ---
+
+pycache/
+*.pyc
+venv/
+.venv/
+
+--- Streamlit Secrets ---
+
+Crucial: This is where your actual secret key resides
+
+.streamlit/secrets.toml
+
+--- Local Environment Files ---
+
+Ignore general environment variable files if you use them locally
+
+.env
+.flaskenv
+
+--- Operating System & Editor Files ---
+
+.DS_Store
+Thumbs.db
+*.bak
+.idea/
+.vscode/
+
+--- Data/Logs (Optional, but recommended) ---
+
+*.log
+*.csv
+*.xlsx
